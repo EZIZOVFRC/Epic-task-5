@@ -1,0 +1,42 @@
+#sec3{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 10%;
+        border-radius: 50%;
+        border: 7px solid red;
+        margin: 30px;
+    }
+    span{
+        
+        font-size: 34px;
+            color: rgb(183, 0, 0);
+            font-family: "Courgette", cursive;
+    }
+    h2{
+        font-size: 64px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            letter-spacing: 15px;
+    }
+    p{
+        font-size: 20px;
+        color: gray;
+        width: 60%;
+        text-align: center;
+    }
+    .stars{
+        i{
+            color: gold;
+            font-size: 20px;
+            margin: 5px;
+        }
+    }
+    h5{
+        margin: 10px;
+        font-size: 18px;
+        
+    }
+}

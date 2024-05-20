@@ -1,0 +1,66 @@
+.cards{
+    display: flex;
+    padding: 100px;
+    justify-content: space-evenly;
+}
+.card{width: 30%;
+    border-radius: 20px;
+    border: none !important;
+    overflow: hidden;
+    img{
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        transition: 0.3s;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    h5{
+        margin-top: 20px;
+        letter-spacing: 2px;
+    }
+    p{
+        text-align: start;
+        font-size: 14px;
+        margin: 10px 0px;
+    }
+    button{
+        border: none;
+        width: 150px;
+        padding: 10px 20px;
+        background-color: orangered;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+.basket{
+    img{
+        width: 70px;
+        height: 70px;
+    }
+    padding-top: 100px;
+    height: 100vh;
+    background-color: rgb(115, 138, 48);
+}
+input{
+    margin-left: 130px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: orangered;
+    border: none;
+    &::placeholder{
+        color: white;
+        font-size: 24px;
+    }
+}
+select{
+    border: none;
+    padding: 10px 20px;
+    background-color: green;
+    border-radius: 20px;
+    margin-left: 870px;
+    
+}
